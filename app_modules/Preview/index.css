@@ -1,0 +1,30 @@
+$SPACE: 20px;
+
+.exception {
+  margin-top: $SPACE;
+  border: 1px solid red;
+  background: #FFE4E4;
+  padding: 10px;
+  color: red;
+}
+
+.warning {
+  margin-top: $SPACE;
+  border: 1px solid #714D0C;
+  background: #FFE3B0;
+  padding: 10px;
+  color: #714D0C;
+  line-height: 1.5rem;
+}
+
+.info {
+  margin-top: $SPACE;
+  border: 1px solid #00A6E8;
+  color: #066C94;
+  background: #CCF3FF;
+  padding: 10px;
+}
+
+.moduleName {
+  font-weight: 600;
+}

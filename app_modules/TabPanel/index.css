@@ -1,0 +1,14 @@
+
+@import 'src/style/variables';
+
+:global {
+  $BG_COLOR: $PRIMARY;
+
+  @import '~react-tab-panel/style/theme/default/index';
+
+  .react-tab-panel--theme-default {
+    .react-tab-panel__tab-strip--theme-default {
+      border-top-color: $PRIMARY;
+    }
+  }
+}

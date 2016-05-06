@@ -1,0 +1,11 @@
+:global(.CodeMirror-scroll) {
+  min-height: 120px;
+  max-height: 60vh;
+}
+
+.autoHeight {
+ :global(.CodeMirror) {
+    border: 1px solid #eee;
+    height: auto;
+  }
+}

@@ -1,0 +1,14 @@
+@import 'src/style/variables';
+
+.snippet {
+  position: relative;
+}
+
+.description {
+  padding-left: 16px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $DOCS_ITALIC_GRAY;
+  font-style: italic;
+}

@@ -1,0 +1,22 @@
+@import 'src/style/variables';
+
+$SPACE: 20px;
+
+.preview {
+  background: white;
+  margin-top: $SPACE;
+  padding: $SPACE;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.header {
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  font-weight: 600;
+  font-style: italic;
+  background: white;
+  color: $DOCS_ITALIC_GRAY;
+  padding: 3px 10px;
+}

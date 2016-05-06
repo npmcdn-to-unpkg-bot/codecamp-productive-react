@@ -1,0 +1,43 @@
+@import './variables';
+@import './fonts';
+@import './base';
+
+// General styles
+@import '~normalize.css/normalize';
+
+:global {
+
+  html, body, #content {
+    * {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+
+  html, body {
+    font-family: $fontMain;
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  @media (max-width: $DEVICE_XS) {
+    html {
+      font-size: 12px;
+    }
+  }
+}
+
+html, body, :global(#content), .app {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  flex: 1;
+}
+
+.blur{
+}

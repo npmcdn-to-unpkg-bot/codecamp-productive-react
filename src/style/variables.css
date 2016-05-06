@@ -1,0 +1,15 @@
+//== font
+$fontMain: "Lato", serif;
+$fontPath: '../asset/fonts';
+
+$PRIMARY: #00A6E8;
+$PRIMARY_DARK: #00394F;
+
+$GRAY_DARK: #474747;
+$GRAY_LIGHT: #B4B5B5;
+
+$DEVICE_XS: 768px;
+$DEVICE_SM: 992px;
+$DEVICE_MD: 1200px;
+
+$DOCS_ITALIC_GRAY: #4E4E4E;

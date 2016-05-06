@@ -1,0 +1,37 @@
+@import 'src/style/variables';
+
+:global {
+  .react-combo {
+    input {
+      background: transparent;
+      flex: 1 1 0;
+      min-width: 10px;
+
+    }    
+
+    .react-combo__value-tags {
+      flex: 1;
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.dark {
+  :global {
+    .react-combo__list {
+      background: $PRIMARY_DARK;
+    }
+    .react-combo__list-item--current {
+      color: $PRIMARY_DARK;
+    }
+    .react-combo__list-item--selected {
+      background: $PRIMARY;
+    }
+    .react-combo__value-tag-clear:hover,
+    .react-combo__value-tag--active {
+      background: white;
+      color: $PRIMARY_DARK;
+    }
+  }
+}

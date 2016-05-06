@@ -1,0 +1,64 @@
+@import 'src/style/variables';
+
+.propTable {
+  position: relative;
+  margin: 10px 0px;
+}
+
+.name {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-style: italic;
+  position: absolute;
+  display: inline-block;
+  background: white;
+  color: gray;
+  top: -12px;
+  left: 15px;
+  padding: 0px 5px;
+}
+
+.propTable table {
+  width: 100%;
+  border: 1px solid gray;
+
+  th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 5px;
+    white-space: nowrap;
+  }
+
+  th:not(:first-child),
+  td:not(:first-child) {
+    border-left: 1px solid gray;
+  }
+}
+
+.propTable.withName {
+  table {
+    margin-top: 20px;
+  }
+  th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.valueSeparator,
+.typeSeparator {
+  display: inline-block;
+  padding: 0px 3px;
+}
+
+.description {
+  width: 100%;
+  white-space: normal !important;
+}

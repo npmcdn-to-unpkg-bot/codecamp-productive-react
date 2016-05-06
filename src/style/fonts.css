@@ -1,0 +1,15 @@
+//  Fonts
+
+//  Fonts
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url($fontPath + '/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: url("#{$fontPath}/MaterialIcons-Regular.woff2") format('woff2'),
+    url("#{$fontPath}/MaterialIcons-Regular.woff") format('woff'),
+    url("#{$fontPath}/MaterialIcons-Regular.ttf") format('truetype');
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300");

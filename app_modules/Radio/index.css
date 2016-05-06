@@ -1,0 +1,24 @@
+@import 'src/style/variables';
+
+.materialRadio {
+  cursor: pointer;
+  display :inline-block;
+  user-select: none;
+  display: inline-block;
+}
+
+.materialRadio > * {
+  vertical-align: middle;
+}
+.materialRadio > :not(:first-child){
+  position: relative;
+  top: 1px;
+}
+
+.icon{
+  font-size: 15vh;
+  margin-right: 5px;
+  &.checked{
+    color: $PRIMARY;
+  }
+}

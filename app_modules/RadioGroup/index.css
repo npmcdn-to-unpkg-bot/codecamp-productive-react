@@ -1,0 +1,8 @@
+.radio{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.column {
+  flex-flow: column;
+}

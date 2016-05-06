@@ -1,0 +1,59 @@
+$BG_COLOR: #272822;
+
+.buttons {
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 111;
+
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: flex;
+  flex-flow: row;
+  align-items: stretch;
+}
+
+.withDescription {
+  top: 32px;
+}
+
+.separator {
+  border-left: 2px solid white;
+  display: inline-block;
+
+  &.over {
+    border-left: 2px solid $BG_COLOR;
+  }
+}
+
+.button {
+
+  padding: 3px;
+  display: inline-block;
+
+  background: $BG_COLOR;
+  color: white;
+  border: 2px solid $BG_COLOR;
+
+  &:first-child,
+  &:last-child {
+    overflow: hidden;
+  }
+
+  &:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  // &.toggle,
+  &:hover {
+    background: white;
+    cursor: pointer;
+    color: $BG_COLOR;
+    border: 2px solid $BG_COLOR;
+  }
+}
