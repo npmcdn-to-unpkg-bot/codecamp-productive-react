@@ -5,6 +5,7 @@ import assign from 'object-assign'
 import Icon from 'Icon'
 import PreviewResult from 'PreviewResult'
 
+import DatePicker from 'DatePicker'
 import styles from './index.css'
 
 import CodeFrame from './CodeFrame'
@@ -55,6 +56,7 @@ const AVAILABLE_MODULES = {
   react: React,
   'react-dom': ReactDOM,
   'react-tab-panel': TabPanel,
+  'react-date-picker': DatePicker,
   assign
 }
 
