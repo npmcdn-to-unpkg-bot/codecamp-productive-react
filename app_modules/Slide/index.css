@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.body {
+  margin: 0 5vw;
+}
+
 .title {
   margin: 0px;
   margin-top: 40px;

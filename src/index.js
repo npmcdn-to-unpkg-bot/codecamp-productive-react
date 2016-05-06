@@ -46,10 +46,10 @@ class App extends Component {
   goto(dir){
     const index = this.state.index + dir
 
-    const bodyActive = document.activeElement == document.body || document.activeElement == document.documentElement
+    const bodyActive = document.activeElement == document.body || document.activeElement == document.documentElement || document.activeElement && document.activeElement.tagName == 'A'
 
     if (!bodyActive){
-      console.warn('an element is active')
+      console.warn('an element is active', document.activeElement)
       return
     }
     console.log('trying to navigate to slide ', index)

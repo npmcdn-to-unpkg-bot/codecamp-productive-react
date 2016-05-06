@@ -78,7 +78,7 @@ export default class Snippet extends Component {
         />
       }
 
-      {!this.state.edit && <Code lang={this.props.lang}>{code}</Code>}
+      {!this.state.edit && <Code lang={this.props.lang} style={props.codeStyle}>{code}</Code>}
       {this.state.edit && <Editor ref="editor" onChange={this.onCodeChange} defaultValue={code} />}
       {this.state.preview && this.renderPreview(code)}
     </div>

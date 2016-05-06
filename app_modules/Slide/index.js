@@ -42,6 +42,7 @@ export default class Slide extends Component {
     >
       {props.title != false && <h3 className={styles.title} style={titleFontSize}>{props.title || '\u00a0'}</h3>}
       <Flex
+        className={styles.body}
         column
         flex={1}
         alignItems="center"
