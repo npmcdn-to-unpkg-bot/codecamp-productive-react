@@ -25,7 +25,7 @@ export default class CodeFrame extends Component {
   }
 
   renderScript(src){
-    const url = `https://npmcdn.com/${src}`
+    const url = `https://unpkg.com/${src}`
 
     return <script key={src} src={url} />
   }

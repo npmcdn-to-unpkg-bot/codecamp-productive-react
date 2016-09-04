@@ -363,7 +363,7 @@ webpackJsonp([1],Array(101).concat([
 	  }, {
 	    key: 'renderScript',
 	    value: function renderScript(src) {
-	      var url = 'https://npmcdn.com/' + src;
+	      var url = 'https://unpkg.com/' + src;
 
 	      return _Component2.React.createElement('script', { key: src, src: url });
 	    }
